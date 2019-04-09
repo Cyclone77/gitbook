@@ -1,4 +1,4 @@
-# 1.用法
+# 标记组件用法
 
 ```markup
 <cy-doc-sign [TempHTML]="TempHTML" [(TempData)]="TempData"></cy-doc-sign>
@@ -79,5 +79,5 @@ TempData = {
       .subscribe(data => this.TempHTML = data);
 ```
 
-下载 [1.html](https://github.com/Cyclone77/gitbook/tree/432e4318604b73e12067b17ddae2c8162930f0e3/1.Angular%20Cy组件用法/1.页面标记/1.html)
+下载 [1.html](./1.html)
 
