@@ -1,15 +1,3 @@
-
-<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
-
-<!-- code_chunk_output -->
-
-* [标记组件用法](#标记组件用法)
-	* [如何使用](#如何使用)
-	* [cy-doc-sign 设置](#cy-doc-sign-设置)
-
-<!-- /code_chunk_output -->
-
-
 # 标记组件用法
 
 ## 如何使用
