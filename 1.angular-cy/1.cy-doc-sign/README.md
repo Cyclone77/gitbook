@@ -4,9 +4,19 @@
 ```markup
 <cy-doc-sign [TempHTML]="TempHTML" [(TempData)]="TempData"></cy-doc-sign>
 ```
-
+### TempHTML模版数据
 ```typescript
-TempData = {
+   this.http.get('assets/1.html', { responseType: 'text' })
+      .subscribe(data => this.TempHTML = data);
+```
+下载 assets/[1.html](./1.html)
+
+### TempData标记数据
+<details>
+  <summary>测试数据</summary>
+  <pre>
+    <code>
+  TempData = {
     OtherData: [{
       tag: '单位',
       text: '测试单位',
@@ -75,11 +85,9 @@ TempData = {
       }]
     ]
   };
-
-   this.http.get('assets/1.html', { responseType: 'text' })
-      .subscribe(data => this.TempHTML = data);
-```
-下载 assets/[1.html](./1.html)
+    </code>
+  </pre>
+</details>
 
 ## cy-doc-sign 设置
 
