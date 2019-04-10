@@ -94,7 +94,7 @@
 参数 | 说明 | 类型 | 默认值
 -|-|-|-
 [TempHTML] | 显示的模版文件 | string | -
-[TempData] | 标记绑定的值 | EventEmitter\<CyTempData\> | -
+[TempData] | 标记绑定的值 | EventEmitter:CyTempData | -
 
 
 
