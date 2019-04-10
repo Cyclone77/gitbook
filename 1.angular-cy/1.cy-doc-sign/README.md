@@ -1,5 +1,18 @@
+
+<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
+
+<!-- code_chunk_output -->
+
+* [标记组件用法](#标记组件用法)
+	* [如何使用](#如何使用)
+	* [cy-doc-sign 设置](#cy-doc-sign-设置)
+
+<!-- /code_chunk_output -->
+
+
 # 标记组件用法
 
+## 如何使用
 ```markup
 <cy-doc-sign [TempHTML]="TempHTML" [(TempData)]="TempData"></cy-doc-sign>
 ```
@@ -78,6 +91,14 @@ TempData = {
    this.http.get('assets/1.html', { responseType: 'text' })
       .subscribe(data => this.TempHTML = data);
 ```
+下载 assets/[1.html](./1.html)
 
-下载 [1.html](./1.html)
+## cy-doc-sign 设置
+
+参数 | 说明 | 类型 | 默认值
+-|-|-|-
+[TempHTML] | 显示的模版文件 | string | -
+[TempData] | 标记绑定的值 | EventEmitter\<CyTempData> | -
+
+
 
