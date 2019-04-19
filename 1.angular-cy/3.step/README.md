@@ -27,7 +27,7 @@
 
 参数|说明|类型|默认值
 -|-|-|-
-[StepSource]|数据源|{}| 1.如果不用template模版则必须包含date, content属性
+[StepSource]|数据源|{}| 如果不用template模版则必须包含date, content属性
 [SelectorStepIndex]|当前步骤|number| -
 
 ## 属性
