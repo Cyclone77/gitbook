@@ -34,3 +34,10 @@
 参数|说明|类型|默认值
 -|-|-|-
 container|自定义内容|ElementRef|-
+
+## 数据类型
+参数|说明|类型|默认值
+-|-|-|-
+date|显示时间|date|-
+content|显示内容|string|-
+disabled|是否禁用选择时间|boolean| false
