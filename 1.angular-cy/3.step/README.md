@@ -22,6 +22,9 @@
     content: '内容2'
   }];
 ```
+## 实例
+https://stackblitz.com/edit/angular-ng-cy-ui-step
+
 
 ## 配置项
 
